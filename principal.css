@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+*{
+	margin: 0px;
+}
+
+body {
+	font-family: Roboto;
+}
+
+.cmd{
+	font-size: 13px;
+	color: red;	
+}
+
+.cmd article ul li dd{
+	color:black;
+}
+
+*{
+	margin: 0px;
+}
