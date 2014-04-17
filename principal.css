@@ -1,5 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
-.cmd:not dd {
-	font-size: 13px;
-	font-family:Roboto; 
+
+body {
+	font-family: Roboto;
 }
+
+.cmd{
+	font-size: 13px;
+	color: red;
+
+	
+}
+
+.cmd article ul li dd{
+	color:black;
+}
+
