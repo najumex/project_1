@@ -8,14 +8,19 @@
 
 body {
 	font-family: Roboto;
+	font-size: 16px;
 }
 
 h1 {
 	text-align: center;
 }
 
+nav {
+    width: 960px;
+    margin: auto;
+}
+
 .cmd{
-	font-size: 13px;
 	color: red;	
 	width: 960px;
 	margin: auto;
