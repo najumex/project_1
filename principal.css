@@ -1,11 +1,20 @@
+/*Fuentes*/
+@font-face {
+	font-family: source-pro-sans-regular;
+	src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
 /*Estilos Generales*/
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;
+}
+
 body {
-	font-family: monospace, verdana, sans-serif;
+	font-family: source-pro-sans-regular, verdana, sans-serif;
 	font-size: 14px;
 }
 /*Estilos Especificos*/
@@ -22,11 +31,18 @@ nav {
 	color: red;	
 	width: 960px;
 	margin: auto;
-    clear:both;
     padding: 50px 0px 15px 100px;
 }
 
-.cmd_git article ul li dd{
-	color:black;
+li {
+	margin: 0px 0px 5px 0px;
 }
 
+code {
+	font-size: 18px;
+}
+
+dd {
+	margin-left: 15px;
+	color:black;
+}
